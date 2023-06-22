@@ -82,7 +82,7 @@ namespace ConsoleApp1
                     bropenge = 15 * 2;
                 }
 
-                penge += (km - 24) * (pris + bropenge) ;
+                penge += (km - 24) * pris + bropenge;
 
                 return penge;
             }
